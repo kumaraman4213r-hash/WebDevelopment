@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: aqua;
+    padding: 5px;
+    gap: 5px;
+}
+
+.Box {
+    height: 300px;
+    width: 200px;
+}
+
+.first {
+    background-color: orange;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.child {
+    height: 140px;
+    background-color: red;
+}
