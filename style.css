@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap: 20px;
+    padding: 10px;
+
+}
+.Box {
+    background-color: rgba(11, 11, 215, 0.324);
+}
+.Header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SideBar{
+    grid-row-start: 2;
+    grid-row-end: 4 ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.Content1{
+    grid-column: 2/4 ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Footer{
+    grid-column: 1/4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Content2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Content3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
