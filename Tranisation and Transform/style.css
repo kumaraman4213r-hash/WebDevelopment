@@ -1,0 +1,47 @@
+
+/* Tranisation require trigger Moment( like cursor)  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.box{
+    height:150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    transform: rotate(30deg);
+    /* transform: skew(30deg); */
+    /* transition-property: all; 
+    transition-duration: 5s;
+    transition-timing-function:ease-in ;
+    transition-delay: 1s; */
+    /* transition: all 3s 1s ease-in; */
+    transition: all 3s;
+
+
+}
+.box:hover{
+    /* background-color: aqua;
+    width: 300px;
+    height: 300px; */
+    
+    /* transform: scale(2); */
+
+    /* transform: scaleX(2); */
+
+    transform: translate(100px, 200px);
+    /* transform: rotateX(90deg); */
+
+}
