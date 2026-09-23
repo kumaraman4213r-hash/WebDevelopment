@@ -57,11 +57,39 @@
 
 
 // spliting string 
-const names = "Aman,Rohit,suraj,Rohan,Anjali"
-console.log(names.split(","))
+// const names = "Aman,Rohit,suraj,Rohan,Anjali"
+// console.log(names.split(","))
 
+                  //DATE
 
+ //const now = new Date();
 
+//  console.log(now)
+// console .log(now.toString())
+// console.log(now.toISOString())
+// console.log(now.toLocaleDateString())
+// console.log(now.toLocaleString())
+
+// Loacal time 
+// console.log(now.getDay());
+// console.log(now.getDate());
+// console.log(now.getFullYear());
+// console.log(now.getMonth());  //months starts from  0 not 1 january ko 0 dikhayga
+// console.log(now.getHours())
+// console.log(now.getSeconds())
+
+// Days: 0 (Sun) to 6 (Sat)
+// Months: 0 to 11
+
+// year, month, date, hour, minute, second, millisecond
+// const now = new Date(2024, 8, 28, 8, 25, 16, 125);
+
+// console.log(now.toString());
+
+const now = Date.now()
+console.log(now) //  in millisecond
+
+//UTC 
 
 
 
