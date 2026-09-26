@@ -69,5 +69,10 @@
 
     // convert array into  string
     
-    const names = ["Aman", "ujjawaal","praphull","kaushall", "Bittu"]
-    console.log(names.toString())
+     const names = ["Aman", "ujjawaal","praphull","kaushall", "Bittu"]
+    // console.log(names.toString())
+    // console.log(names.join("-"))
+
+    console.log(names.lastIndexOf("ujjawaal"))
+     console.log(names.includes("ujjawaal"))
+
