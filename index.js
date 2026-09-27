@@ -56,9 +56,9 @@
     
     //merge array
     
-    const arr = [10,30,50,90,11]
-    const arr2 = ["Rohit" ,  11, true]
-    const arr4 = [90,4,false]
+    // const arr = [10,30,50,90,11]
+    // const arr2 = ["Rohit" ,  11, true]
+    // const arr4 = [90,4,false]
     //arr.push(arr2)
     // const arr3 = arr.concat(arr2,arr4)
     // const arr3  = [arr,arr2,arr4]
@@ -69,10 +69,34 @@
 
     // convert array into  string
     
-     const names = ["Aman", "ujjawaal","praphull","kaushall", "Bittu"]
+    //  const names = ["Aman", "ujjawaal","praphull","kaushall", "Bittu"]
     // console.log(names.toString())
     // console.log(names.join("-"))
 
-    console.log(names.lastIndexOf("ujjawaal"))
-     console.log(names.includes("ujjawaal"))
+    // console.log(names.lastIndexOf("ujjawaal"))
+    //  console.log(names.includes("ujjawaal"))
 
+
+    // const names = ["Aman", "ujjawaal","praphull","kaushall", "Bittu"]
+
+    // //  names.sort();
+    //  names.reverse()
+    //  console.log(names)
+
+    // const a = [101,90,80,32,91]; // short on basic of ascii value
+    // a.sort()
+    // console.log(a)
+
+    // const arr = [10,20,40,31 ,3,11]
+    // arr.sort((a,b)=>a-b);
+    // console.log (arr)
+     
+    //flattering nested array
+
+    const arr = [10,30,50,[40,90,11],80]
+    const a = arr.flat(2)
+    console.log(a)
+
+    // console.log(arr[3][2][1])
+
+    
