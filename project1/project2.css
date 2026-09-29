@@ -1,0 +1,50 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+
+}
+
+#continer{
+    background-color:yellow;;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+.box{
+    background-color : blue; 
+    box-sizing: border-box;
+    
+    
+    
+}
+.first, .third{
+width: 85px;
+height: 85px;
+background-color: blue;
+}
+
+.third{
+    position: absolute;
+    bottom: 0px;
+}
+
+.second,.fourth{
+    width: 170px;
+    height: 85px;
+     position: absolute;
+}
+
+.second{
+    top: 0px;
+    right: 0px;
+   
+}
+.fourth{
+    bottom: 0px;
+    right: 0px;
+}
